@@ -15,12 +15,10 @@ class ClickCollector:
         self.clicked_points = []
 
     def _click_event(self, event, x, y, flags, img):
-        """Internal mouse callback: record left-button clicks."""
         if event == cv2.EVENT_LBUTTONDOWN:
             print(f"Clicked at: ({x}, {y})")
             self.clicked_points.append((x, y))
             cv2.circle(img, (x, y), 5, (0, 0, 255), -1)
-            cv2.imshow("Image", img)
 
     def run(self):
         """Load images, allow user to click on each, then save points."""
