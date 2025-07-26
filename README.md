@@ -1,6 +1,2 @@
-# CollisionVision
-
-Final project for the 3D Vision course – Hebrew University of Jerusalem.
-
-This project simulates a known nautical technique for predicting **collision course** between two ships.  
-The method relies on checking whether another ship stays at a constant bearing (angle) in a sequence of images.
+# Collision course detection
+<img width="999" height="599" alt="Figure_1" src="https://github.com/user-attachments/assets/5110140e-b91c-4dfa-b4b4-4bc19a01c965" />
