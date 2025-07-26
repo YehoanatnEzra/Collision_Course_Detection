@@ -9,25 +9,16 @@ Inspired by maritime safety applications, this project demonstrates how computer
 - Analyze geometry (distance and angle)
 - Predict future collision based on motion trends
 
-The project puts into practice topics covered in the course such as:
-- Perspective warping
-- Manual and automatic feature localization
-- Geometric reasoning (distance, angle over time)
-- Visualization and analysis
-
-## 🛠 How It Works
+## How It Works
 1. **Perspective Rectification**  
    The user selects 4 points in one image to warp all frames to a consistent top-down view.
-
 2. **Manual Object Center Selection**  
    For each frame in a scene, the user clicks on the centers of the two ships (or shoes!).
-
 3. **Geometric Analysis**  
    The program computes:
    - Distance between ships in each frame
    - Relative angle between them
    - Trend of distance and angle over time
-
 4. **Collision Prediction**  
    If the angle remains consistent and distance decreases steadily, the program flags a collision course.
 
