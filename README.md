@@ -3,8 +3,8 @@
 
 This repository offers two complementary pipelines for detecting whether two ships (or any two objects) in a scene are on a collision course, using a sequence of images from a fixed camera:
 
-1. **Full CV Pipeline with Rectification** — Perspective Rectification → Manual Tracking → Geometric Analysis → Collision Flag  
-2. **Practical Pipeline** — Manual Tracking → Linear Intersection + Time-to-Collision + Cross-Ratio → Collision Flag
+1. **Full CV Pipeline with Rectification** - Perspective Rectification → Manual Tracking → Geometric Analysis → Collision Flag  
+2. **Practical Pipeline** - Manual Tracking → Linear Intersection + Time-to-Collision + Cross-Ratio → Collision Flag
 
 ---
 
