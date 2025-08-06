@@ -1,13 +1,13 @@
 
-# 🚢 Collision Course Detection from Images 
-This project detects whether two ships (represented by objects in a scene) are on a collision course — by analyzing a sequence of images taken from a fixed camera.
+# 🚢 Collision Course Detection from Images - 3D Project.
 
-## Motivation
-Inspired by maritime safety applications, this project demonstrates how computer vision techniques can be used to:
-- Rectify image perspective
-- Track object positions across frames
-- Analyze geometry (distance and angle)
-- Predict future collision based on motion trends
+This repository offers two complementary pipelines for detecting whether two ships (or any two objects) in a scene are on a collision course, using a sequence of images from a fixed camera:
+
+1. **Full CV Pipeline** — Perspective Rectification → Manual Tracking → Geometric Analysis → Collision Flag  
+2. **Lightweight Pipeline** — Manual Tracking → Linear Intersection + Time-to-Collision + Cross-Ratio → Collision Flag
+
+---
+
 
 ## How It Works
 1. **Perspective Rectification**  
