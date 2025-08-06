@@ -1,5 +1,5 @@
 
-# 🚢 Collision Course Detection from Images
+# Collision Course Detection from Images - 3D Project
 
 This repository offers two complementary pipelines for detecting whether two ships (or any two objects) in a scene are on a collision course, using a sequence of images from a fixed camera:
 
