@@ -9,7 +9,7 @@ This repository offers two complementary pipelines for detecting whether two shi
 ---
 
 
-## How It Works
+##  Full CV Pipeline (with Rectification)
 1. **Perspective Rectification**  
    The user selects 4 points in one image to warp all frames to a consistent top-down view.
 2. **Manual Object Center Selection**  
